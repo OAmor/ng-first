@@ -1,4 +1,6 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
+import {Data} from '../../model/data';
+import {Btn} from '../../model/btn';
 
 @Component({
   selector: 'app-tool-bar-btn',

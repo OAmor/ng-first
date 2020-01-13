@@ -1,4 +1,4 @@
 <div>
-    <app-tool-bar-btn [icon]="'home'" [text]="'home'" (clickEvent)="btnClicked($event)" ></app-tool-bar-btn>
+    <app-tool-bar-btn *ngFor="let b of buttons" [icon]="b.icon" [text]="b.text" (clickEvent)="btnClicked($event)" ></app-tool-bar-btn>
     <p>The Chosen btn is : {{result}}</p>
 </div>
