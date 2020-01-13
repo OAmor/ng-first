@@ -1,3 +1,6 @@
+.item{
+  cursor: pointer;
+}
 .item-image{
   width: 150px;
 }
@@ -8,4 +11,13 @@
 p{
   color:#909090;
   margin: 5px 0;
+}
+.time{
+  background: #333333;
+  color: #fff;
+  bottom: 10px;
+  position: absolute;
+  right: 5px;
+  padding: 0px 3px;
+  font-size: 13px;
 }
