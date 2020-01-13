@@ -32,6 +32,7 @@ import { ToolBarBtnComponent } from './components/tool-bar-btn/tool-bar-btn.comp
 import { YoutubeViewComponent } from './components/youtube-view/youtube-view.component';
 import { MainVideoComponent } from './components/main-video/main-video.component';
 import { VideoItemComponent } from './components/video-item/video-item.component';
+import { VideoCommentComponent } from './components/video-comment/video-comment.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { VideoItemComponent } from './components/video-item/video-item.component
     ToolBarBtnComponent,
     YoutubeViewComponent,
     MainVideoComponent,
-    VideoItemComponent
+    VideoItemComponent,
+    VideoCommentComponent
   ],
   imports: [
     BrowserModule,
