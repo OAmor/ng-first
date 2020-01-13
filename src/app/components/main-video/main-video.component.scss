@@ -1,0 +1,28 @@
+.main{
+  color:#909090;
+}
+.black{
+  color:#333;
+}
+#video-section iframe{
+  width: 100%;
+  margin: 5px auto;
+}
+#video-section .link{
+  text-decoration: none;
+  color: #909090;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 5px 15px
+}
+.subscribe{
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: #c00;
+  cursor: pointer;
+}
+.author-image{
+  width: 65px;
+  border-radius: 50%;
+}

@@ -29,6 +29,9 @@ import { TrainingEditorComponent } from './components/training-editor/training-e
 import { Exemple8Component } from './components/exemple8/exemple8.component';
 import { ToolBareComponent } from './components/tool-bare/tool-bare.component';
 import { ToolBarBtnComponent } from './components/tool-bar-btn/tool-bar-btn.component';
+import { YoutubeViewComponent } from './components/youtube-view/youtube-view.component';
+import { MainVideoComponent } from './components/main-video/main-video.component';
+import { VideoItemComponent } from './components/video-item/video-item.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +60,10 @@ import { ToolBarBtnComponent } from './components/tool-bar-btn/tool-bar-btn.comp
     TrainingEditorComponent,
     Exemple8Component,
     ToolBareComponent,
-    ToolBarBtnComponent
+    ToolBarBtnComponent,
+    YoutubeViewComponent,
+    MainVideoComponent,
+    VideoItemComponent
   ],
   imports: [
     BrowserModule,
