@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolBareComponent implements OnInit {
 
+  result: string = 'No One';
   constructor() { }
 
   ngOnInit() {
   }
 
+  btnClicked(text: string){
+    this.result = text;
+  }
 }

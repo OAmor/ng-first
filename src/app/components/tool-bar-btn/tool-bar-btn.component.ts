@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-tool-bar-btn',
@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolBarBtnComponent implements OnInit {
 
+  @Input() text: string;
+
+  @Input() icon: string;
+
+  @Output() clickEvent: EventEmitter<string> = new EventEmitter<string>();
+
   constructor() { }
+
+  sendText(text: string) {
+      this.clickEvent.emit(text);
+  }
 
   ngOnInit() {
   }

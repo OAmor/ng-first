@@ -27,7 +27,7 @@ import { TableDataComponent } from './components/table-data/table-data.component
 import { Exemple7Component } from './components/exemple7/exemple7.component';
 import { TrainingEditorComponent } from './components/training-editor/training-editor.component';
 import { Exemple8Component } from './components/exemple8/exemple8.component';
-import { ToolBareComponent } from './tool-bare/tool-bare.component';
+import { ToolBareComponent } from './components/tool-bare/tool-bare.component';
 import { ToolBarBtnComponent } from './components/tool-bar-btn/tool-bar-btn.component';
 
 @NgModule({
