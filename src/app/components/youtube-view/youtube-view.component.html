@@ -2,11 +2,5 @@
     <app-main-video></app-main-video>
 </div>
 <div style="width: 28%;display: inline-block;vertical-align: top">
-    <app-video-item></app-video-item>
-    <app-video-item></app-video-item>
-    <app-video-item></app-video-item>
-    <app-video-item></app-video-item>
-    <app-video-item></app-video-item>
-    <app-video-item></app-video-item>
-    <app-video-item></app-video-item>
+    <app-video-item *ngFor="let v of videos" [video]="v"></app-video-item>
 </div>

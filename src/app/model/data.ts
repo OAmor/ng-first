@@ -19,7 +19,7 @@ export class Data {
     ];
 
     public static listVideo: Video[] = [
-        { title: 'home1', link: 'Home', date: 'test', likes: 5, dislikes:10, image: 'image',
+        { title: 'home1', link: 'Home', date: 'test', views: 200, recommanded: true, new: true, likes: 5, dislikes:10, image: 'image',
             author:{ name:'oussama', image: 'test', subscribers: 3},
             comments:[
                 {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}

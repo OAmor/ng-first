@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Data} from '../../model/data';
+import { Video } from '../../model/video';
 
 @Component({
   selector: 'app-youtube-view',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class YoutubeViewComponent implements OnInit {
 
+  videos: Video[];
   constructor() { }
 
   ngOnInit() {
+      this.videos = Data.listVideo;
   }
 
 }

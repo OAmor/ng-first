@@ -4,10 +4,10 @@
         <span class="time">10:15</span>
     </div>
     <div style="display: inline-block;margin-right: 5px;vertical-align: top">
-        <p class="item-title">Title</p>
-        <p>Author</p>
-        <p>150 vues</p>
-        <p>recommended for you</p>
-        <p>nouveau</p>
+        <p class="item-title">{{video.title}}</p>
+        <p>{{video.author.name}}</p>
+        <p>{{video.views}} vues</p>
+        <p *ngIf="video.recommanded">recommended for you</p>
+        <p *ngIf="video.new">nouveau</p>
     </div>
 </div>
