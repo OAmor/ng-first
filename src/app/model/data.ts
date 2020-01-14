@@ -1,5 +1,8 @@
 import { Training } from './training';
 import { Btn } from './btn';
+import { Video } from './video';
+import Author from './author';
+import Comment from './comment';
 
 export class Data {
     public static list: Training[] = [
@@ -13,5 +16,26 @@ export class Data {
         { icon: 'facebook', text: 'Facebook' },
         { icon: 'twitter', text: 'Twitter' },
         { icon: 'google-plus', text: 'Google plus' },
+    ];
+
+    public static listVideo: Video[] = [
+        { title: 'home1', link: 'Home', date: 'test', likes: 5, dislikes:10, image: 'image',
+            author:{ name:'oussama', image: 'test', subscribers: 3},
+            comments:[
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
+            ]
+        },
+        { title: 'home2', link: 'Home', date: 'test', likes: 5, dislikes:10, image: 'image',
+            author:{ name:'oussama', image: 'test', subscribers: 3},
+            comments:[
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
+            ]
+        },
+        { title: 'home3', link: 'Home', date: 'test', likes: 5, dislikes:10, image: 'image',
+            author:{ name:'oussama', image: 'test', subscribers: 3},
+            comments:[
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
+            ]
+        }
     ];
 }
