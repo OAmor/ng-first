@@ -10,10 +10,18 @@ import { Video } from '../../model/video';
 export class YoutubeViewComponent implements OnInit {
 
   videos: Video[];
+
+  video: Video;
+
   constructor() { }
 
   ngOnInit() {
       this.videos = Data.listVideo;
+      this.video = Data.listVideo[0];
+  }
+
+  videoSelected(v: Video){
+      this.video = v;
   }
 
 }

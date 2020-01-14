@@ -28,13 +28,17 @@ export class Data {
         { title: 'home2', link: 'Home', date: 'test', likes: 5, dislikes:10, image: 'image',
             author:{ name:'oussama', image: 'test', subscribers: 3},
             comments:[
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},
                 {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
             ]
         },
         { title: 'home3', link: 'Home', date: 'test', likes: 5, dislikes:10, image: 'image',
             author:{ name:'oussama', image: 'test', subscribers: 3},
             comments:[
-                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},
+                {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},
             ]
         }
     ];

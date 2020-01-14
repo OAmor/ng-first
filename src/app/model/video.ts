@@ -7,6 +7,8 @@ export class Video {
 
     image: string;
 
+    time?: string;
+
     description?: string;
 
     views?: number;

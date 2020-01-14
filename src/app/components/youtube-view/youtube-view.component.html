@@ -1,6 +1,6 @@
 <div style="width: 68%;display: inline-block;margin-right: 25px">
-    <app-main-video></app-main-video>
+    <app-main-video [video]="video"></app-main-video>
 </div>
 <div style="width: 28%;display: inline-block;vertical-align: top">
-    <app-video-item *ngFor="let v of videos" [video]="v"></app-video-item>
+    <app-video-item *ngFor="let v of videos" [video]="v" (clickEvent)="videoSelected($event)"></app-video-item>
 </div>
