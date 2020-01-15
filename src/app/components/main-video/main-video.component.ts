@@ -15,4 +15,12 @@ export class MainVideoComponent implements OnInit {
   ngOnInit() {
   }
 
+  addLikes(){
+      if(this.video.disliked){this.video.disliked=false;this.video.dislikes--}
+      if(!this.video.liked){this.video.likes++;this.video.liked=true;}
+  }
+  addDislikes(){
+    if(this.video.liked){this.video.liked=false;this.video.likes--}
+    if(!this.video.disliked){this.video.dislikes++;this.video.disliked=true;}
+  }
 }

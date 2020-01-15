@@ -1,5 +1,5 @@
-import Comment from 'comment';
-import Author from 'author';
+import Comment from './comment';
+import Author from './author';
 export class Video {
     title: string;
 
@@ -21,7 +21,11 @@ export class Video {
 
     likes: number;
 
+    liked?: boolean;
+
     dislikes: number;
+
+    disliked?: boolean;
 
     comments?: Array<Comment>;
 

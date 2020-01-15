@@ -11,8 +11,8 @@
                 {{video.views}} vues • {{video.date}}
             </p>
             <p style="display: inline-block;width: 50%;text-align: right">
-                <a href="#" class="link"><i class="fa fa-thumbs-up"></i> {{video.likes}}</a>
-                <a href="#" class="link"><i class="fa fa-thumbs-down"></i> {{video.dislikes}}</a>
+                <a class="link" [ngClass]="{clicked:video.liked}" (click)="addLikes()"><i class="fa fa-thumbs-up"></i> {{video.likes}}</a>
+                <a (click)="addDislikes()" [ngClass]="{clicked:video.disliked}" class="link"><i class="fa fa-thumbs-down"></i> {{video.dislikes}}</a>
                 <a href="#" class="link"><i class="fa fa-share"></i> PARTAGER</a>
             </p>
         </div>

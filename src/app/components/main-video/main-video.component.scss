@@ -13,7 +13,12 @@
   color: #909090;
   font-size: 18px;
   font-weight: 900;
-  margin: 5px 15px
+  margin: 5px 15px;
+  cursor: pointer;
+}
+.clicked{
+  color:#065fd4 !important;
+  cursor: auto !important;
 }
 .subscribe{
   border: none;
