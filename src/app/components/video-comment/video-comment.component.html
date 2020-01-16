@@ -3,7 +3,7 @@
         <img [src]="comment.author.image" alt="author-image" class="author-image">
     </div>
     <div style="display: inline-block;width: 90%">
-        <p><span class="black">{{comment.author.name}}</span> il ya 5 min</p>
+        <p><span class="black">{{comment.author.name}}</span> {{comment.commentedAt}}</p>
         <p class="black">{{comment.text}}</p>
         <p>
             <a [ngClass]="{clicked:comment.liked}" (click)="addLikes()" class="link"><i class="fa fa-thumbs-up"></i>{{comment.likes}}</a>

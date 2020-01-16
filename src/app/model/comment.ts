@@ -11,4 +11,6 @@ export default class Comment {
     liked?: boolean;
 
     disliked?: boolean;
+
+    commentedAt?: string;
 }
