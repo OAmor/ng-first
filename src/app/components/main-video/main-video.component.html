@@ -22,12 +22,13 @@
         <div style="display: inline-block;width: 10%">
             <img [src]="video.author.image" class="author-image" alt="author-image">
         </div>
-        <div style="display: inline-block;width: 75%;padding: 5px 10px">
+        <div style="display: inline-block;width: 70%;padding: 5px 10px">
             <h3 class="black">{{video.author.name}}</h3>
             <p class="black">{{video.description}}</p>
         </div>
-        <div style="display: inline-block;width: 10%">
-            <button class="subscribe">S'ABONNER</button>
+        <div style="display: inline-block;width: 15%;vertical-align: top">
+            <button (click)="handleSubscribe()" class="subscribe" [ngClass]="{subscribed:video.subscribed}">S'ABONNER</button>
+            <i *ngIf="video.subscribed" style="display: inline-block;padding-left: 10px" class="fa fa-bell-o"></i>
         </div>
     </div>
     <hr style="color: #eee">

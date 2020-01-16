@@ -30,4 +30,6 @@ export class Video {
     comments?: Array<Comment>;
 
     author?: Author;
+
+    subscribed?: boolean;
 }

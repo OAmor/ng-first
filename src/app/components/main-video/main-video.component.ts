@@ -31,4 +31,8 @@ export class MainVideoComponent implements OnInit {
     if(this.video.liked){this.video.liked=false;this.video.likes--}
     if(!this.video.disliked){this.video.dislikes++;this.video.disliked=true;}
   }
+    handleSubscribe(){
+      if(this.video.subscribed) this.video.subscribed = !this.video.subscribed;
+      else this.video.subscribed = true;
+    }
 }
