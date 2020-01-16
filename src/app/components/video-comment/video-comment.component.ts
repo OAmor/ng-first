@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import Comment from '../../model/comment';
 
 @Component({
   selector: 'app-video-comment',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./video-comment.component.scss']
 })
 export class VideoCommentComponent implements OnInit {
+
+  @Input() comment: Comment;
 
   constructor() { }
 

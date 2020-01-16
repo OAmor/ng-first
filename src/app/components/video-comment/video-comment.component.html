@@ -1,13 +1,13 @@
 <div style="padding-left: 60px">
     <div style="display: inline-block;width: 10%;vertical-align: top">
-        <img src="./assets/author.jpeg" alt="author-image" class="author-image">
+        <img [src]="comment.author.image" alt="author-image" class="author-image">
     </div>
     <div style="display: inline-block;width: 90%">
-        <p><span class="black">Comment author name</span> il ya 5 min</p>
-        <p class="black">comment text example</p>
+        <p><span class="black">{{comment.author.name}}</span> il ya 5 min</p>
+        <p class="black">{{comment.text}}</p>
         <p>
-            <a href="#" class="link"><i class="fa fa-thumbs-up"></i>3</a>
-            <a href="#" class="link"><i class="fa fa-thumbs-down"></i></a>
+            <a href="#" class="link"><i class="fa fa-thumbs-up"></i>{{comment.likes}}</a>
+            <a href="#" class="link"><i class="fa fa-thumbs-down"></i>{{comment.dislikes}}</a>
         </p>
     </div>
 </div>

@@ -20,7 +20,7 @@
     <hr style="color: #eee">
     <div id="author-section">
         <div style="display: inline-block;width: 10%">
-            <img src="./assets/author.jpeg" class="author-image" alt="author-image">
+            <img [src]="video.author.image" class="author-image" alt="author-image">
         </div>
         <div style="display: inline-block;width: 75%;padding: 5px 10px">
             <h3 class="black">{{video.author.name}}</h3>
@@ -33,6 +33,6 @@
     <hr style="color: #eee">
     <div id="comments-section">
         <h3>{{video.comments.length}} Commentaires</h3>
-        <app-video-comment *ngFor="let c of video.comments"></app-video-comment>
+        <app-video-comment *ngFor="let c of video.comments" [comment]="c"></app-video-comment>
     </div>
 </div>
