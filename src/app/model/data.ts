@@ -20,7 +20,7 @@ export class Data {
         { title: 'Bad at Picking COLORS? Let\'s fix that - RAPID Color Scheming',
             description:'Use code \'DESIGNC19\' to get $20 credit on your new Linode account!',
             link: 'https://www.youtube.com/embed/s9p3nF4rFaU', date: '13 janv. 2020', views: 25158, likes: 1300, dislikes:33,
-            image: './assets/videos/hq720.jpg',
+            image: './assets/videos/hq720.jpg',time:'17:03',
             author:{ name:' DesignCourse', image: './assets/users/unnamed.jpg', subscribers: 499000},
             comments:[
                 {text: 'Hey Gary. I liked the initiative you took over the color selection tuts. But I think you could have done a better job in color selection. Any of the artboards just didn\'t look professional, mainly due to bad color selection.',
@@ -33,7 +33,7 @@ export class Data {
         { title: 'Create a Custom SVG Checkbox (Animated AND Accessible!)',
             description:'Use code \'DESIGNC19\' to get $20 credit on your new Linode account!',
             link: 'https://www.youtube.com/embed/46iQVS7WddE', date: '9 janv. 2020', views: 13132, likes: 677, dislikes:8,
-            image: './assets/videos/hqdefault.jpg',
+            image: './assets/videos/hqdefault.jpg',time:'26:43',
             author:{ name:' DesignCourse', image: './assets/users/unnamed.jpg', subscribers: 499000},
             comments:[
                 {text: 'You actually don\'t need to add javascript to reverse, you can set your transition to be on the unchecked/default version, it will reverse it. Great video though!',
@@ -46,7 +46,7 @@ export class Data {
         { title: 'This is what happens when you reply to spam email | James Veitch',
             description:'Suspicious emails: unclaimed insurance bonds, diamond-encrusted safe deposit boxes, close friends marooned in a foreign country.',
             link: 'https://www.youtube.com/embed/_QdPW8JrYzQ', date: '1 févr. 2016', views: 47032655 , likes: 951000, dislikes:28000,
-            image: './assets/videos/hqdefaultTed.jpg',
+            image: './assets/videos/hqdefaultTed.jpg',time:'09:49',
             author:{ name:' TED', image: './assets/users/TED.jpg', subscribers: 15900000},
             comments:[
                 {text: 'My brother got a text from a scammer so he spoiled endgame for them',
@@ -59,7 +59,7 @@ export class Data {
         { title: 'Inside the mind of a master procrastinator | Tim Urban',
             description:"Tim Urban knows that procrastination doesn't make sense, but he's never been able to shake his habit of waiting until the last minute to get things done.",
             link: 'https://www.youtube.com/embed/arj7oStGLkU', date: '6 avr. 2016', views: 25503285 , likes: 884000, dislikes:9000,
-            image: './assets/videos/hqdefaultTed2.jpg',
+            image: './assets/videos/hqdefaultTed2.jpg',time:'14:04',
             author:{ name:' TED', image: './assets/users/TED.jpg', subscribers: 15900000},
             comments:[
                 {text: 'I feel like my \'Monkey\' is not afraid of monster anymore....',
@@ -72,7 +72,7 @@ export class Data {
         { title: '10 ways to have a better conversation | Celeste Headlee',
             description:'When your job hinges on how well you talk to people, you learn a lot about how to have conversations',
             link: 'https://www.youtube.com/embed/R1vskiVDwl4', date: '8 mars 2016', views: 7738149 , likes: 174000, dislikes:2500,
-            image: './assets/videos/hqdefaultTed3.jpg',
+            image: './assets/videos/hqdefaultTed3.jpg',time:'11:44',
             author:{ name:' TED', image: './assets/users/TED.jpg', subscribers: 15900000},
             comments:[
                 {text: 'Most people don\'t really listen, they\'re just waiting for their turn to speak',
@@ -84,7 +84,7 @@ export class Data {
         { title: 'Angular Crash Course',
             description:'In this video we will talk about what Angular is and then jump in and build a small app With Angular 7, looking at most of the fundamental concepts like components, services, modules, etc',
             link: 'https://www.youtube.com/embed/Fdf5aTYRW0E', date: '23 janv. 2019', views: 455362 , likes: 81000, dislikes:129,
-            image: './assets/videos/hqdefaultAng1.jpg',
+            image: './assets/videos/hqdefaultAng1.jpg',time:'01:24:09',
             author:{ name:'  Traversy Media', image: './assets/users/Trav.jpg', subscribers: 9690000},
             comments:[
                 {text: 'Great introduction to Angular.Be blessed!',
@@ -96,7 +96,7 @@ export class Data {
         { title: 'Web Development In 2020 - A Practical Guide',
             description:'In this complete and practical guide, we will look at just about every technology in web development. You do NOT have to learn everything here.',
             link: 'https://www.youtube.com/embed/0pThnRneDjw', date: '5 déc. 2019', views: 335288 , likes: 15000, dislikes:136,
-            image: './assets/videos/hqdefaultAng2.jpg',
+            image: './assets/videos/hqdefaultAng2.jpg',time:'01:12:45',
             author:{ name:'  Traversy Media', image: './assets/users/Trav.jpg', subscribers: 9690000},
             comments:[
                 {text: 'I owe my career to this man. Thank you Mr Traversy!',
@@ -108,7 +108,7 @@ export class Data {
         { title: 'Node.js GeoJSON API & App | Store Locator',
             description:'In this project we will create a store locator API that serves GeoJSON data. We will also build a simple frontend using Mapbox to plot the points.',
             link: 'https://www.youtube.com/embed/9FQrFah9rnc', date: '31 déc. 2019', views: 38102 , likes: 18000, dislikes:14,
-            image: './assets/videos/hqdefaultAng2.jpg',
+            image: './assets/videos/hqdefaultAng2.jpg',time:'01:16:42',
             author:{ name:'  Traversy Media', image: './assets/users/Trav.jpg', subscribers: 9690000},
             comments:[
                 {text: 'Happy New Year, Brad! Thank you for everything you did for us in 2019! ',

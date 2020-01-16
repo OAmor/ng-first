@@ -7,4 +7,8 @@ export default class Comment {
     dislikes: number;
 
     author: Author;
+
+    liked?: boolean;
+
+    disliked?: boolean;
 }

@@ -15,4 +15,12 @@ export class VideoCommentComponent implements OnInit {
   ngOnInit() {
   }
 
+    addLikes(){
+        if(this.comment.disliked){this.comment.disliked=false;this.comment.dislikes--}
+        if(!this.comment.liked){this.comment.likes++;this.comment.liked=true;}
+    }
+    addDislikes(){
+        if(this.comment.liked){this.comment.liked=false;this.comment.likes--}
+        if(!this.comment.disliked){this.comment.dislikes++;this.comment.disliked=true;}
+    }
 }

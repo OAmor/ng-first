@@ -6,8 +6,8 @@
         <p><span class="black">{{comment.author.name}}</span> il ya 5 min</p>
         <p class="black">{{comment.text}}</p>
         <p>
-            <a href="#" class="link"><i class="fa fa-thumbs-up"></i>{{comment.likes}}</a>
-            <a href="#" class="link"><i class="fa fa-thumbs-down"></i>{{comment.dislikes}}</a>
+            <a [ngClass]="{clicked:comment.liked}" (click)="addLikes()" class="link"><i class="fa fa-thumbs-up"></i>{{comment.likes}}</a>
+            <a [ngClass]="{clicked:comment.disliked}" (click)="addDislikes()" class="link"><i class="fa fa-thumbs-down"></i>{{comment.dislikes}}</a>
         </p>
     </div>
 </div>
