@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Data } from 'src/app/model/data';
-import { Training } from 'src/app/model/training';
+import { Data } from '../../model/data';
+import { Training } from '../../model/training';
 
 @Component({
   selector: 'app-exemple4',

@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Training } from 'src/app/model/training';
-import { Data } from 'src/app/model/data';
-import { TrainingService } from 'src/app/services/training/training.service';
+import { Training } from '../../model/training';
+import { Data } from '../../model/data';
+import { TrainingService } from '../../services/training/training.service';
 
 
 @Component({
