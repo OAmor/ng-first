@@ -2,9 +2,10 @@
     <div id="video-section">
         <div style="text-align: center">
             <iframe height="315"
-                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    [src]="video.link|safe">
             </iframe>
         </div>
+        <p>{{video.link}}</p>
         <div>
             <h3 class="black">{{video.title}}</h3>
             <p style="display: inline-block;width: 50%">
@@ -32,7 +33,7 @@
     </div>
     <hr style="color: #eee">
     <div id="comments-section">
-        <h3>{{video.comments}} Commentaire</h3>
+        <h3>{{video.comments.length}} Commentaires</h3>
         <app-video-comment *ngFor="let c of video.comments"></app-video-comment>
     </div>
 </div>

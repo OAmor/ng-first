@@ -17,13 +17,13 @@ export class Data {
     ];
 
     public static listVideo: Video[] = [
-        { title: 'home1', description:'test desc', link: 'Home', date: '12 jul', views: 200, recommanded: true, new: true, likes: 5, dislikes:10, image: 'image',
+        { title: 'home1', description:'test desc', link: 'https://www.youtube.com/embed/tgbNymZ7vqY', date: '12 jul', views: 200, recommanded: true, new: true, likes: 5, dislikes:10, image: 'image',
             author:{ name:'oussama', image: 'test', subscribers: 3},
             comments:[
                 {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
             ]
         },
-        { title: 'home2', link: 'Home', date: 'test', likes: 5, dislikes:10, image: './assets/videos/test.png',
+        { title: 'home2', link: 'https://www.youtube.com/watch?v=U3k9CiLwKyc', date: 'test', likes: 5, dislikes:10, image: './assets/videos/test.png',
             author:{ name:'oussama', image: 'test', subscribers: 3},
             comments:[
                 {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},

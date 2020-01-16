@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {DomSanitizer, SafeResourceUrl, SafeUrl} from '@angular/platform-browser';
 import {Video} from '../../model/video';
 
 @Component({
@@ -10,9 +11,16 @@ export class MainVideoComponent implements OnInit {
 
   @Input() video: Video;
 
-  constructor() { }
+  urlSafe: SafeResourceUrl;
+
+  constructor(public sanitizer: DomSanitizer) { }
 
   ngOnInit() {
+    //  this.urlSafe= this.getSafeUrl(this.video.link);
+  }
+
+  getSafeUrl(url) {
+      return this.sanitizer.bypassSecurityTrustResourceUrl(url)
   }
 
   addLikes(){

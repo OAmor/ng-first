@@ -33,6 +33,7 @@ import { YoutubeViewComponent } from './components/youtube-view/youtube-view.com
 import { MainVideoComponent } from './components/main-video/main-video.component';
 import { VideoItemComponent } from './components/video-item/video-item.component';
 import { VideoCommentComponent } from './components/video-comment/video-comment.component';
+import {SafeUrlPipe} from './safe-url.pipe';
 
 @NgModule({
   declarations: [
@@ -65,16 +66,18 @@ import { VideoCommentComponent } from './components/video-comment/video-comment.
     YoutubeViewComponent,
     MainVideoComponent,
     VideoItemComponent,
-    VideoCommentComponent
+    VideoCommentComponent,
+    SafeUrlPipe
   ],
   imports: [
     BrowserModule,
     CommonModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [
 
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[SafeUrlPipe]
 })
 export class AppModule { }
