@@ -23,7 +23,7 @@ export class Data {
                 {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}}
             ]
         },
-        { title: 'home2', link: 'https://www.youtube.com/watch?v=U3k9CiLwKyc', date: 'test', likes: 5, dislikes:10, image: './assets/videos/test.png',
+        { title: 'home2', link: 'https://www.youtube.com/embed/U3k9CiLwKyc', date: 'test', likes: 5, dislikes:10, image: './assets/videos/test.png',
             author:{ name:'oussama', image: 'test', subscribers: 3},
             comments:[
                 {text: 'comment text', likes: 2, dislikes: 10, author: { name: 'oussama', image: 'test', subscribers: 3}},
